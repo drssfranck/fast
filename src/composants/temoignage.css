@@ -1,0 +1,37 @@
+/*Témoignage-----*/
+
+.carousel-temoignage{
+    max-width: 90%;
+    margin: auto;
+}
+
+
+.carousel-item{
+    width:100%;
+    margin: auto;
+}
+.figure{
+    width: auto;
+    margin:auto;
+}
+
+
+.figure-img{
+    display: block;
+    margin: auto;
+}
+.figure-caption h5,h3{
+    margin: auto;
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+
+.text-temoignage{
+    width: auto;
+    font-size: 17px;
+    line-height: 2;
+    text-align: center;
+    font-style: italic;
+}

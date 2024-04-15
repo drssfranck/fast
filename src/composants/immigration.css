@@ -1,0 +1,49 @@
+.jumbotron {
+    background-color: #2c3e90;
+    color: #fff;
+    height: 300px;
+  }
+
+ .titiititi{
+  vertical-align: middle;
+ }
+  .fast-visa{
+    margin-bottom: 10px;
+    background:#ccc;
+  }
+
+  .fast-service1{
+    width: 90%;
+  }
+
+  .fa-service{
+    width: 100px;
+    height: 100px;
+    color: #2c3e90;
+    margin-bottom: 10px;
+  }
+
+  .service-titre h3 {
+    margin-top: 50px;
+    font-size:26px; font-weight:700;  letter-spacing:1px; text-transform:uppercase; width:160px; text-align:center; white-space:nowrap; padding-bottom:13px;
+  }
+
+  .service-titre h3:before {
+    background-color: #2c3e90;
+    content: '';
+    display: block;
+    height: 3px;
+    width: 150px;
+    margin-bottom: 5px;
+}
+
+.service-titre h3:after {
+  background-color: #c50000;
+  content: '';
+  display: block;
+  text-align: left;
+  position:absolute; 
+  height: 3px;
+  width: 100px;
+  margin-bottom: 0.25em;
+}

@@ -1,0 +1,34 @@
+.whatsapp-fast{
+    display: block;
+    width: 40px;
+    margin: auto;
+    height: 40px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.whatsapp-contact{
+    position: fixed;
+    background-color: rgb(44, 62, 144,1);
+    border-radius: 30px;
+    bottom: 0;
+    right: 0;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    padding: 5px;
+    z-index: 1;
+}
+.whatsapp-contact:hover{
+    background-color: rgb(33, 120, 187,1);
+    
+}
+.message{
+    width: auto;
+    align-items: center;
+}
+
+.whatsapp-contact a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}

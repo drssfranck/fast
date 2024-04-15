@@ -1,0 +1,81 @@
+
+.fast-footer {
+    border-top:10px solid #2c3e90;
+      background-color:#ccf;
+      color: #2c3e90;
+      margin: auto;
+
+    }
+    .daywork{
+      display: block;
+      margin: auto;
+      text-align: center;
+    }
+  .left-foot{
+    width: 33.3333%;
+    display: inline-block;
+    margin: auto;
+    line-height: 30px;
+    padding: 30px;
+  }
+    .logo-footer{
+      display: block;
+      width: 50px;
+      margin: auto;    
+    }
+  
+    .social-foot{
+      display: block;
+      margin: auto;
+  
+      text-align: center;
+    }
+  
+    .fast-service{
+      font-family: "open Sans", sans-serif;
+      text-rendering: optimizeLegibility;
+      line-height: 26px;
+      font-size: 15px;
+      text-align: center;
+      margin-top: 5px;
+      color: #000;
+    }
+  
+    .widget-title{
+      font-size: 16px;
+      font-weight: 700;
+      position: relative;
+      margin: 0 0 20px;
+      padding-left: 0px;
+      text-transform: uppercase;
+      border-left: 4px solid #2c3e90;
+      text-align: center;
+    }
+  
+    .social-fast{
+      font-size: 30px;
+      margin: 30px;
+      color: #2c3e90;
+    }
+    .social-fast :hover{
+      opacity: 0.5;
+    }
+    .tday{
+      width: 80%;
+      margin: auto;
+    }
+    
+    .footer-foot{
+      background:#2c3e90;
+      height: 40px;
+      color: #fff;
+      text-align: center;
+    }
+    @media (max-width: 900px)  {
+        .fast-footer {
+            position: relative;
+        }
+        .left-foot{
+          width: 100%;
+        }
+    }

@@ -1,0 +1,10 @@
+.accordion{
+    width: 90%;
+    margin: auto;
+
+    padding-bottom: 20px;
+}
+
+.accordion-button {
+    font-weight: 600;
+}

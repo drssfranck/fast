@@ -1,0 +1,67 @@
+.menu{
+  width: auto;
+  margin: auto;
+  background: #ccf;
+  border-bottom: 5px solid #2c3e90;
+}
+.navbar-toggler{
+  color: #2c3e90;
+}
+/*design du branding et logo*/
+.fast-sure{
+    display: inline;
+    color: #2c3e90;
+    font-weight: 900;
+    vertical-align: middle;
+    font-size: 22px;
+    margin-left: 20px;
+
+  }
+
+  .fast-logo{
+    vertical-align: middle;
+    margin-left: 20px;
+  }
+/*bouton lancer ma procédure */
+ .open-file{
+    border: 0;
+    border-radius: 3px;
+    padding: 12px 20px 10px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Montserrat",sans-serif;
+    background-color: #2c3e90;
+    text-decoration: dotted;
+    margin-right: 20px;
+  }
+.open-file:hover{
+    background-color: #2178bb;
+    color: #fff;
+  }
+
+  /*Menu principal nav*/
+
+  .nav-principale{
+    width: auto;
+    margin: auto;
+  }
+.nav-link{
+  width: auto;
+  margin-right: 15px;
+}
+  @media (max-width: 900px) {
+    .nav-principale{
+      width: auto;
+      margin-left: 20px;
+    }
+    .fast-sure{
+      font-size: 18px;
+  
+    }
+    .open-file{
+      display: block;
+      margin: auto;
+      width :fit-content;
+      font-size: 10px;
+    }
+  }

@@ -1,0 +1,44 @@
+.carousel{
+    height: 700px;
+}
+.carousel-inner{
+    height: 700px;
+}
+.carousel-item{
+    height: 700px;
+}
+.item-fast{
+    height: 700px;
+}
+.carousel-captionfast{
+    background-color: rgb(0, 0,0,0.5);
+    border-radius: 20px;
+    margin: auto;
+
+}
+.carousel-captionfast p{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+
+.carousel-captionfast h3{
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+@media (max-width: 900px) {
+    .carousel{
+        height: auto;
+    }
+    .carousel-inner{
+        height: auto;
+    }
+    .carousel-item{
+        height: auto;
+    }
+    .item-fast{
+        height: auto;
+    }
+}
