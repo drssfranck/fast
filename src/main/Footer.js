@@ -1,6 +1,6 @@
 import './footer.css';
 import logo from '../media/logo.png';
-import { Image, Col } from 'react-bootstrap';
+import { Image} from 'react-bootstrap';
 import {BsFacebook, BsTwitterX, BsTiktok,BsInstagram} from 'react-icons/bs';
 
 const Footer = () =>{

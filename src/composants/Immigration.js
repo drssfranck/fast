@@ -36,7 +36,7 @@ function Immigration(){
                                             
                                         
                 </div>
-                <a href="#" className="btn btn-primary btn-lg">
+                <a href="/openfolder" className="btn btn-primary btn-lg">
                     <FaPlus/>Lancer ma procédure
                 </a>
                 </div></div>
@@ -64,7 +64,7 @@ Chaque étudiant a des besoins uniques. Notre approche est personnalisée pour r
                     
                 </div>
                     
-                    <a href="#" className="btn btn-primary btn-lg">
+                    <a href="/openfolder" className="btn btn-primary btn-lg">
                     <FaPlus/>Lancer ma procédure
                     </a>
                 </div>
@@ -92,7 +92,7 @@ Chaque étudiant a des besoins uniques. Notre approche est personnalisée pour r
                         
                     
                 </div>
-                    <a href="#" className="btn btn-primary btn-lg">
+                    <a href="/openfolder" className="btn btn-primary btn-lg">
                     <FaPlus/>Lancer ma procédure
                     </a>
                 </div>
@@ -120,7 +120,7 @@ Chaque étudiant a des besoins uniques. Notre approche est personnalisée pour r
                         
                     
                 </div>
-                    <a href="#" className="btn btn-primary btn-lg">
+                    <a href="/openfolder" className="btn btn-primary btn-lg">
                     <FaPlus/>Lancer ma procédure
                     </a>
                 </div>

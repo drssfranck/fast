@@ -1,5 +1,5 @@
 import './carousel.css';
-import {Row,Carousel} from 'react-bootstrap';
+import {Carousel} from 'react-bootstrap';
 var carouselitem = [
     {
         id:0,

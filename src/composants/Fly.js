@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaCalendar, FaCheck, FaGlobe, FaPlane, FaPrint, FaUser } from 'react-icons/fa';
+import { FaCalendar, FaGlobe, FaPlane, FaPrint, FaUser } from 'react-icons/fa';
 import './fly.css';
 import { FaTicket } from 'react-icons/fa6';
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
@@ -30,11 +30,11 @@ const handleInputChange = (event) => {
     <>
         <div className="container-fly">
                 <h1 className='h1-fly'><FaPlane className="fa fa-plane icon"/>Demandez une reservation de votre billet d'avion</h1>
-                <Form className='form-fly' id="bookingForm">
+                <Form className='form-fly' id="bookingForm" onSubmit={printTicket}>
                 <h2 class="fly-infovol">Information sur le vol :</h2>
                 <div className='row'> 
                     <Col className='' sm={6}>
-                        <Form.Select size='sm' name='depart'  >
+                        <Form.Select size='sm' name='depart' onChange={handleInputChange} >
                              <option>Ville de depart</option>
                             <option value='Douala'>Douala</option>
                             <option value='Yaoundé'>Yaounde</option>
