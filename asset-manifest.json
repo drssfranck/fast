@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/fast/fast/static/css/main.55ccc6e1.css",
-    "main.js": "/fast/fast/static/js/main.e6426414.js",
-    "static/media/alex.jpg": "/fast/fast/static/media/alex.e3a4bd80aa9f991f45d3.jpg",
-    "static/media/immigration1.jpg": "/fast/fast/static/media/immigration1.0a4b4d0888573c136ad4.jpg",
-    "static/media/usinechine.jpg": "/fast/fast/static/media/usinechine.39cfab0208b492389108.jpg",
-    "static/media/flycarousel.jpg": "/fast/fast/static/media/flycarousel.388bd0e7dd5e9ff25b70.jpg",
-    "static/media/colis.jpg": "/fast/fast/static/media/colis.85bcf858d76639cf6232.jpg",
-    "static/media/logo.png": "/fast/fast/static/media/logo.5cbb16738c6c5269224b.png",
-    "index.html": "/fast/fast/index.html",
-    "main.55ccc6e1.css.map": "/fast/fast/static/css/main.55ccc6e1.css.map",
-    "main.e6426414.js.map": "/fast/fast/static/js/main.e6426414.js.map"
+    "main.css": "/home/static/css/main.55ccc6e1.css",
+    "main.js": "/home/static/js/main.fcacc7de.js",
+    "static/media/alex.jpg": "/home/static/media/alex.e3a4bd80aa9f991f45d3.jpg",
+    "static/media/immigration1.jpg": "/home/static/media/immigration1.0a4b4d0888573c136ad4.jpg",
+    "static/media/usinechine.jpg": "/home/static/media/usinechine.39cfab0208b492389108.jpg",
+    "static/media/flycarousel.jpg": "/home/static/media/flycarousel.388bd0e7dd5e9ff25b70.jpg",
+    "static/media/colis.jpg": "/home/static/media/colis.85bcf858d76639cf6232.jpg",
+    "static/media/logo.png": "/home/static/media/logo.5cbb16738c6c5269224b.png",
+    "index.html": "/home/index.html",
+    "main.55ccc6e1.css.map": "/home/static/css/main.55ccc6e1.css.map",
+    "main.fcacc7de.js.map": "/home/static/js/main.fcacc7de.js.map"
   },
   "entrypoints": [
     "static/css/main.55ccc6e1.css",
-    "static/js/main.e6426414.js"
+    "static/js/main.fcacc7de.js"
   ]
 }
