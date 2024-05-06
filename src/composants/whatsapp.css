@@ -1,34 +1,23 @@
-.whatsapp-fast{
-    display: block;
-    width: 40px;
-    margin: auto;
-    height: 40px;
-    font-weight: 900;
-    color: #fff;
-}
 
-.whatsapp-contact{
+
+
+.link-fast{
     position: fixed;
-    background-color: rgb(44, 62, 144,1);
-    border-radius: 30px;
-    bottom: 0;
-    right: 0;
-    margin-right: 40px;
-    margin-bottom: 50px;
-    padding: 5px;
-    z-index: 1;
-}
-.whatsapp-contact:hover{
-    background-color: rgb(33, 120, 187,1);
-    
-}
-.message{
-    width: auto;
-    align-items: center;
+    background-color:#25d366;
+    width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+
 }
 
-.whatsapp-contact a{
-    text-decoration: none;
-    color: #fff;
-    font-weight: 700;
+
+.link-fast:hover{
+    background-color: rgb(44, 62, 144,1);
 }

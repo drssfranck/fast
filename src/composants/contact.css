@@ -1,5 +1,8 @@
 body{
 }
+#root{
+    width: 100%;
+}
 .contact-form{
     margin-bottom: 5%;
     width: 90%;
@@ -22,7 +25,6 @@ body{
     transform: rotate(29deg);
 }
 .contact-form form{
-    padding: 10%;
 }
 .contact-form form .row{
     margin-bottom: -7%;

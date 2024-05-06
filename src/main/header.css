@@ -1,7 +1,7 @@
 .menu{
   width: auto;
   margin: auto;
-  background: #ccf;
+  background: #fff;
   border-bottom: 5px solid #2c3e90;
 }
 .navbar-toggler{
@@ -13,8 +13,9 @@
     color: #2c3e90;
     font-weight: 900;
     vertical-align: middle;
-    font-size: 22px;
-    margin-left: 20px;
+    font-size: 20px;
+    margin-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
   }
 
@@ -33,6 +34,7 @@
     background-color: #2c3e90;
     text-decoration: dotted;
     margin-right: 20px;
+    font-size: 15px;
   }
 .open-file:hover{
     background-color: #2178bb;
@@ -48,7 +50,35 @@
 .nav-link{
   width: auto;
   margin-right: 15px;
+  color: #2c3e90 !important;
+  font-weight: bold !important;
+  opacity: 0.75;
 }
+.nav-link-ltr{
+  color: #2c3e90 !important;
+  font-weight: bold !important;
+}
+.nav-link:hover{
+  opacity: 1;
+}
+
+.nav-link::before{
+  transition: 300ms;
+  height: 5px;
+  content: "";
+  position: absolute;
+  background-color: #2c3e90;
+}
+.nav-link-ltr::before{
+  width: 0%;
+  bottom: 10px;
+}
+
+.nav-link-ltr:hover:before{
+  width: 75px;
+}
+
+
   @media (max-width: 900px) {
     .nav-principale{
       width: auto;
@@ -63,5 +93,8 @@
       margin: auto;
       width :fit-content;
       font-size: 10px;
+    }
+    .nav-link-ltr:hover:before{
+      width: 0px;
     }
   }

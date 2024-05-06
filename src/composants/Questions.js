@@ -1,48 +1,72 @@
-import Accordion from 'react-bootstrap/Accordion';
+import { FaHome, FaPaperPlane, FaPen } from 'react-icons/fa';
 import './questions.css';
+import { BsQuestionCircle } from 'react-icons/bs';
+import { BiRocket } from 'react-icons/bi';
+import { FaBook, FaUser } from 'react-icons/fa6';
 function Questions() {
     return (
         <>
-                 <div className='section-title'>
-                    <h2 className='fast-titre'>Questions Frequement posé</h2> 
+            <section className='question-section'>
+                <h3 className='text-center mb-4 pb-2 text-primary fw-bold'>FAQ</h3>
+                <BsQuestionCircle className='question-mark' /> 
+                <p className='text-center mb-5'>
+                    Découvrez les réponses à vos questions les plus fréquentes sur les visas : de la documentation requise aux délais de traitement, nous avons les réponses pour vous guider en toute confiance.
+                </p>
+
+                <div  className='row'>
+                    <div className='col-md-6 col-lg-4 mb-4'>
+                    <h6 className='mb-3 text-primary'> <FaPaperPlane className='text-primary pe-2 text-justify  text-center'/> Comment se déroule votre service d’assistance visa ? </h6>
+                    <p>
+                         
+                        Notre service d’assistance visa est fonction de la <strong><u> procédure choisie par le client</u></strong>. Après confirmation de votre admissibilité, l’étape suivante découle du résultat de l’étude de votre dossier. 
+                    </p>
+                    </div>
+
+                    <div className='col-md-6 col-lg-4 mb-4'>
+                    <h6 className='mb-3 text-primary'><FaPen className='text-primary pe-2  text-center'/>
+                         Quels pays couvrez-vous en matière d’assistance visa ?
+                    </h6>
+                    <p>
+                        Nous offrons une assistance visa pour un large éventail de pays à l’exemple de : <strong><u>la France, le Canada, la Chine, la Russie, la Roumanie, la Turquie.</u></strong>   
+                    </p>
+                    </div>
+
+                    <div className='col-md-6 col-lg-4 mb-4'>
+                    <h6 className='mb-3 text-primary'> <FaUser className='text-primary pe-2  text-center' /> 
+                    Quelles sont les exigences et les documents nécessaires pour la demande de visa ? 
+                    </h6>
+                    <p>
+                         Les exigences et les documents requis varient en fonction du pays de destination et du type de visa demandé. Nous vous fournissons une liste complète des exigences spécifiques à votre demande et nous vous guidons sur la manière de rassembler et de soumettre les documents requis. 
+                    </p>
+                    </div>
+
+                    <div className='col-md-6 col-lg-4 mb-4'>
+                    <h6 className='mb-3 text-primary'><BiRocket className='text-primary pe-2  text-center'/><i className='fas fa-rocket text-primary pe-2  text-center'></i>
+                        Quels sont les délais de traitement habituels pour les demandes de visa ? 
+                    </h6>
+                    <p>
+                    Les délais de traitement varient en fonction de la destination choisie et du type de visa demandé.  Toutefois, nous vous informons des délais de traitement estimés pour votre demande spécifique, en tenant compte des facteurs actuels qui pourraient les influencer, tels que les politiques d’immigration, les périodes de pointe. 
+                    </p>
+                    </div>
+
+                    <div className='col-md-6 col-lg-4 mb-4'>
+                    <h6 className='mb-3 text-primary'><FaHome className='text-primary pe-2  text-center' />Proposez-vous une assistance en cas de refus de visa ? 
+                    </h6>
+                        Oui, nous offrons une assistance en cas <p><strong><u>de refus de visa.</u></strong>  Si votre demande de visa est refusée,
+                         nous vous aidons à comprendre les raisons du refus et à évaluer les options disponibles,
+                         telles que la possibilité de faire appel à la décision ou de soumettre une nouvelle demande avec des informations supplémentaires. 
+                        </p>
+                    </div>
+
+                    <div className='col-md-6 col-lg-4 mb-4'>
+                    <h6 className='mb-3 text-primary'><FaBook className='text-primary pe-2  text-center'/>
+                    Quels sont les frais associés à vos services d’assistance visa ? 
+                        </h6>
+                    <p>
+                    Les frais associés à nos services d’assistance visa varient en fonction du pays de destination, du type de visa demandé et des services spécifiques dont vous avez besoin.  Nous vous fournissons une estimation claire et détaillée des frais lors de votre consultation initiale.                     </p>
+                    </div>
                 </div>
-            <p className='lead about-fast'>Découvrez les réponses à vos questions les plus fréquentes sur les visas : de la documentation requise aux délais de traitement, nous avons les réponses pour vous guider en toute confiance.</p>
-            <div>
-           
-                <Accordion defaultActiveKey='0'>
-                    <Accordion.Item eventKey='0'>
-                        <Accordion.Header>Quels sont les documents nécessaires pour obtenir un visa d'études ?</Accordion.Header>
-                        <Accordion.Body>
-                        Les documents requis varient en fonction du pays de destination, mais généralement, vous aurez besoin de votre passeport, d'une lettre d'admission de l'établissement d'enseignement, de preuves de fonds suffisants, et éventuellement d'autres documents spécifiques au pays.
-                        </Accordion.Body>
-                    </Accordion.Item>
-    
-                    <Accordion.Item eventKey='1'>
-                        <Accordion.Header>Combien de temps faut-il pour obtenir un visa de travail pour le Canada ?</Accordion.Header>
-                        <Accordion.Body>
-                        Le délai de traitement des visas de travail pour le Canada peut varier en fonction du type de visa et de la demande spécifique. En règle générale, le processus peut prendre plusieurs semaines à quelques mois. Nous vous recommandons de commencer le processus dès que possible pour éviter les retards.
-                        </Accordion.Body>
-                    </Accordion.Item>
-                    <Accordion.Item eventKey='2'>
-                        <Accordion.Header> Puis-je faire une demande de visa de tourisme pour le Canada si je suis originaire d'un pays non membre de l'UE ?</Accordion.Header>
-                        <Accordion.Body>
-                        Oui, les ressortissants de nombreux pays non membres de l'UE peuvent faire une demande de visa de tourisme pour le Canada. Les exigences et le processus varient en fonction de votre pays d'origine. Nous vous recommandons de vérifier les exigences spécifiques auprès de l'ambassade ou du consulat du Canada dans votre pays.
-                        </Accordion.Body>
-                    </Accordion.Item>
-                    <Accordion.Item eventKey='3'>
-                        <Accordion.Header>Quels sont les avantages de faire appel à Fast And Sure Travel pour obtenir un visa d'affaires pour la Chine ?</Accordion.Header>
-                        <Accordion.Body>
-                        En choisissant Fast And Sure Travel, vous bénéficiez de notre expertise et de notre expérience dans le domaine des visas d'affaires pour la Chine. Notre équipe vous guidera à chaque étape du processus, vous fournissant des conseils personnalisés et une assistance professionnelle pour assurer une demande de visa réussie et sans tracas.
-                        </Accordion.Body>
-                    </Accordion.Item>
-                    <Accordion.Item eventKey='4'>
-                        <Accordion.Header>Fournissez-vous des services de suivi des demandes de visa ?</Accordion.Header>
-                        <Accordion.Body>
-                        Oui, nous offrons des services de suivi des demandes de visa pour toutes les demandes que nous traitons. Vous serez informé de l'état de votre demande à chaque étape du processus, et notre équipe sera disponible pour répondre à toutes vos questions et vous fournir des mises à jour régulières.
-                        </Accordion.Body>
-                    </Accordion.Item>
-                </Accordion>
-        </div>
+            </section>
         </>
     );
 }

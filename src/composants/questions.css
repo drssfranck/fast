@@ -1,10 +1,16 @@
-.accordion{
-    width: 90%;
+.question-section{
+    width: 95%;
     margin: auto;
-
-    padding-bottom: 20px;
+   
+}
+.question-mark{
+    font-size: 100px;
+    width: 100%;
+    color: rgb(44, 62, 144,1);
+    margin-bottom: 5px;
+    font-weight: bolder;
 }
 
-.accordion-button {
-    font-weight: 600;
+.pe-2{
+    font-size: 30px;
 }

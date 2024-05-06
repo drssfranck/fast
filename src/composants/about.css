@@ -1,3 +1,11 @@
+.jumbotrons {
+    background-image: url('../media/banière.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+    height: 500px; 
+  }
+
 .fast-titre{
     font-weight: 1000;
     position: relative;
@@ -17,6 +25,7 @@
     padding-bottom: 20px;
     position: relative;
     color: #2178bb;
+
 }
 
 .section-title h2::before{
@@ -118,9 +127,160 @@ ul {
 .about_content_box_all {
     padding: 28px;
 }
-
+.img_about{
+    height: 300px;
+    width: 500px;
+}
 .image-folefack{
-    height: 400px !important;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     border: 3px solid lawngreen;
+}
+
+
+
+
+#container{
+    width: 80%;
+    min-height: 800px;
+    position: relative;
+    font-family: 'Noto Sans HK', sans-serif;
+    left: 10%;
+
+}
+#heading{
+    width: 100%;
+    height: 80px;
+    background-color: cadetblue;
+    color: white;
+    top: -20px;
+    position: relative;
+}
+#heading h1{
+    font-family: 'Noto Sans HK', sans-serif;
+    text-align: center;
+    top: 25px;
+    position: relative;
+}
+.team{
+    width: 350px;
+    height: 330px;
+    border-radius: 8px;
+}
+
+#container .item{
+    overflow: hidden;
+    width: 33.33335%;
+    float: left;
+    height: 330px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.front{
+    float: left;
+    backface-visibility: hidden;
+    transform: perspective(600px) rotateX(0deg);
+    transition: 1.5s;
+    overflow: hidden;
+    backface-visibility: hidden;
+    border-radius: 8px;
+}
+.back{
+    width: 97%;
+    height: 350px;
+    background-color:#bcaaa4;
+    position: relative;
+    top: -350px;
+    transform: perspective(600px) rotateX(180deg);
+    transition: 1.5s;
+    overflow: hidden;
+    backface-visibility: hidden;
+    box-shadow: 0 0 35px #007BB6;
+    border-radius: 8px;
+}
+.title{
+    position: relative;
+    top: 110px;
+    text-align: center;
+    font-size: 30px;
+    color: #007BB6;
+}
+.job{
+    position: relative;
+    top: 90px;
+    text-align: center;
+    font-size: 25px;
+}
+@keyframes move{
+    0%{
+        position: relative;
+        top: 0px;
+    }
+    100%{
+        position: relative;
+        top: 80px;
+    }
+}
+.social{
+    position: relative;
+    top: 90px;
+    color: black;
+    margin-right: 10px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    left: 34%;
+}
+.fa-facebook:hover{
+    color: #3B558D;
+}
+.fa-linkedin:hover{
+    color: #007BB6;
+}
+.fa-twitter:hover{
+    color: #2CAAE1;
+}
+#container .item:hover > .front{
+    transform: perspective(600px) rotateX(-180deg);
+}
+#container .item:hover > .back{
+    transform: perspective(600px) rotateX(0deg);
+}
+@media only screen and (max-width:900px){
+    #container .item{
+        width: 95%;
+        position: relative;
+        left: 3.5%;
+    }
+    .front, .back{
+        width: 90%;
+    }
+    #container{
+        min-height: 1400px;
+        
+    
+    }
+}
+@media only screen and (max-width:650px){
+    
+#container{
+    min-height: 1400px;
+    
+
+}
+    
+    .item{
+        
+        width: 100%;
+        position: relative;
+        left: 0;
+    }
+    .front, .back{
+        width: 100%;
+    }
+    .team{
+        width: 600px;
+    }
 }

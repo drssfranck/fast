@@ -16,8 +16,8 @@ function Services(){
             </div>
         </div>
 
-        <section class="we-offer-area text-center bg-gray">
-        <div class="container">
+        <section className="we-offer-area text-center bg-gray">
+        <div className="container">
                 <div className="row our-offer-items less-carousel">
 
                     <div className="col-md-4 col-sm-6 equal-height">
@@ -25,17 +25,16 @@ function Services(){
                             <PiPlanetBold className="fas fa-pen-fancy"/>
                             <h4>Assistance visa</h4>
                             <p>
-                             Nous simplifions le processus d'obtention de visas à l'étranger. Notre équipe vous guide à chaque étape, de la demande à la délivrance.
-                            </p>
+                            Nous simplifions le processus d’obtention de visa à l’étranger. Notre équipe vous guide à chaque étape de la procédure.                             </p>
                         </div>
                     </div>
 
                     <div className="col-md-4 col-sm-6 equal-height">
                         <div className="item">
                             <FaPlane className="fas fa-dharmachakra"/>
-                            <h4>Vente des billet d'avions</h4>
+                            <h4>Vente de billets d’avion </h4>
                             <p>
-                            Nous trouverons pour vous les meilleures offres de billets d'avion grâce à notre connaissances du fonctionnement des companies de transport aérien.
+                            Grace à notre GDS IATA, nous vous proposons les meilleurs itinéraires aux meilleurs prix. 
                             </p>
                         </div>
                     </div>
@@ -43,10 +42,9 @@ function Services(){
                     <div className="col-md-4 col-sm-6 equal-height">
                         <div className="item">
                             <BiPackage className="fas fa-tasks"/>
-                            <h4>Envois des colis</h4>
+                            <h4>Envoi des colis </h4>
                             <p>
-                            Expédiez vos colis en toute sécurité à l'international avec notre service fiable et rapide.
-                            </p>
+                            Nous expédions vos colis en toute sécurité de la Chine vers le Cameroun grâce notre service fiable et rapide.                             </p>
                         </div>
                     </div>
 

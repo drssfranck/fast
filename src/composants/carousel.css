@@ -1,44 +1,148 @@
 .carousel{
-    height: 700px;
+    max-height: 600px;
 }
 .carousel-inner{
-    height: 700px;
-}
-.carousel-item{
-    height: 700px;
-}
-.item-fast{
-    height: 700px;
-}
-.carousel-captionfast{
-    background-color: rgb(0, 0,0,0.5);
-    border-radius: 20px;
-    margin: auto;
-
-}
-.carousel-captionfast p{
-    font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
+.carousel-item{
+    max-height: 600px;
+}
+.item-fast{
+    height: auto;
+}
 
+
+.line {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    border: 9px solid #fff;
+    -webkit-clip-path: polygon(0 0, 60% 0, 36% 100%, 0 100%);
+    clip-path: polygon(0 0, 60% 0, 36% 100%, 0 100%);
+  }
+
+  .carousel-captionfast .btn {
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	cursor: pointer;
+	padding: 25px 80px;
+	display: inline-block;
+	margin: 15px 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.carousel-captionfast .btn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btn-2 {
+	background:  rgb(44, 62, 144,1);
+	color: #fff;
+	box-shadow: 0 6px  rgb(44, 62, 144,1);
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+}
+
+.btn-2a {
+	border-radius: 0 0 5px 5px;
+}
+
+.btn-2a:hover {
+	box-shadow: 0 4px #fff;
+	top: 2px;
+}
+
+
+.carousel-captionfast p{
+    background-color: rgb(0, 0, 0,0.5);
+    border-radius: 20px;
+    padding: 10px;
+    width: fit-content;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+  font-weight: 300;
+  line-height: 36px;
+  color: #fff;
+    
+}
+.mbe-idriss
+.carousel-indicators{
+    display: none;
+}
+.carousel-indicators [data-bs-target]{
+    width: 10px !important;
+}
 
 .carousel-captionfast h3{
     text-transform: uppercase;
     font-weight: 900;
+    font-size: 56px;
+  font-weight: 600;
+  margin: 5px 0 20px;
+  word-spacing: 3px;
+  color: #fff;
+}
+.carousel-captionfast {
+    background-color: rgb(0, 0, 0,0.5);
+    width: fit-content;
 }
 
 @media (max-width: 900px) {
+    .carousel-captionfast p{
+        font-size: 8px;
+    }
     .carousel{
         height: auto;
     }
-    .carousel-inner{
-        height: auto;
-    }
+    
     .carousel-item{
         height: auto;
     }
     .item-fast{
         height: auto;
     }
+    .carousel-captionfast h3{
+        font-size: 16px;
+    }
+
+    .carousel-captionfast p{
+        font-size: 12px;
+        width: 100%;
+        line-height: 15px;
+    }
+    .carousel-caption{
+        height: 80% !important;
+        margin: auto !important;
+    }
+
+
+  .carousel-captionfast .btn {
+	border: none;
+	font-size: 10px;
+	color: inherit;
+	cursor: pointer;
+	padding: 5px 20px;
+	display: inline-block;
+	margin: 15px 30px;
+}
+
 }
