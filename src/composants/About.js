@@ -185,7 +185,7 @@ function About(){
                     {
                         team.map(maiva =>{
                             return(
-                                <div className="item" key={maiva.id}>
+                                <div className="item tango" key={maiva.id}>
                                     <div className="front">
                                         <Image id="team1" className="team" src={maiva.imagea} />
                                     </div>

@@ -1,3 +1,23 @@
+@media screen and (max-width: 980px) {
+    .tango{
+        display: block;
+        width: 95%;
+        position: relative;
+        left: 3.5%;
+    }
+    .front, .back{
+        width: 90%;
+    }
+    #container{
+        min-height: 1400px;
+        
+    
+    }
+}
+
+
+
+
 .jumbotrons {
     background-image: url('../media/banière.png');
     background-size: 100%;
@@ -247,40 +267,4 @@ ul {
 }
 #container .item:hover > .back{
     transform: perspective(600px) rotateX(0deg);
-}
-@media only screen and (max-width:900px){
-    #container .item{
-        width: 95%;
-        position: relative;
-        left: 3.5%;
-    }
-    .front, .back{
-        width: 90%;
-    }
-    #container{
-        min-height: 1400px;
-        
-    
-    }
-}
-@media only screen and (max-width:650px){
-    
-#container{
-    min-height: 1400px;
-    
-
-}
-    
-    .item{
-        
-        width: 100%;
-        position: relative;
-        left: 0;
-    }
-    .front, .back{
-        width: 100%;
-    }
-    .team{
-        width: 600px;
-    }
 }
