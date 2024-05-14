@@ -35,8 +35,7 @@ const Aboutus = () =>{
                 <div className='contentRight'>
                     <div className='content'>
                     <div className="container-welcome">
-                        <span className="text1"> BIENVENU à </span>
-                        <span className="text2">
+                        <span className="text2">BIENVENU à 
                         FAST AND SURE TRAVEL SARL
                         </span>
                     </div>

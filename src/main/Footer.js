@@ -94,7 +94,7 @@ const Footer = () =>{
                                         />
 
                                         <p className='fast-service text-center'>
-                                            Nous travaillons de Lundi à samedi, tous les jours hors jours fériés. Contactez-nous en cas d'urgence, avec notre Hotline et notre formulaire de contact.
+                                            Nous travaillons de Lundi à samedi. Contactez-nous en cas d'urgence, avec notre Hotline et notre formulaire de contact.
                                         </p>
 
                                     <p>

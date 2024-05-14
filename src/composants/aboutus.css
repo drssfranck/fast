@@ -93,6 +93,14 @@ body{
 .contentRight .content a:hover{
     opacity: 0.5;
 }
+.text2 {
+    margin-top: 10px;
+    font-size: 45px;
+    color: #2c3e90;
+    font-weight: 900;
+    text-align: center;
+  }
+  
 @media(max-width: 768px){
     .contentRight{
         height: 400px;
@@ -112,6 +120,11 @@ body{
     .contentRight .content h2{
         font-size: 30px;
     }
+    .text2{
+        margin-top: 5px;
+        font-size: 25px;
+
+    }
 }
 
 
@@ -120,42 +133,7 @@ body{
     display: block; 
   }
   
-  .text1 {
-    color: #2178bb;
-    font-size: 35px;
-    font-weight: 700;
-    letter-spacing: 5px;
-    margin-bottom: 30px;
 
-  /*   shorthand animation property: name | duration | iteration count */
-  /*   animation: text 4s 1; */
-    animation-name: text;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-  }
   
-  .text2 {
-    margin-top: 10px;
-    font-size: 45px;
-    color: #2c3e90;
-    font-weight: 900;
-    text-align: center;
-  }
-  
-  @keyframes text {
-    0% {
-      color: black;
-      margin-bottom: -40px;
-    }
-    30% {
-      letter-spacing: 25px;
-      margin-bottom: -40px;
-    }
-    85% {
-      letter-spacing: 8px;
-      margin-bottom: -40px;
-    }
-    100% {
-      margin-bottom: 20px;
-    }
-  }
+
+ 
