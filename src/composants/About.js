@@ -36,7 +36,7 @@ var team = [{
 
 }
 ,{
-    id:'3',
+    id:'4',
     nom:'HUM ',
     poste :'Chargée clientéle',
     facebook:'',
@@ -186,7 +186,7 @@ function About(){
                         team.map(maiva =>{
                             return(
                                 <div className="item" key={maiva.id}>
-                                    <div class="front">
+                                    <div className="front">
                                         <Image id="team1" className="team" src={maiva.imagea} />
                                     </div>
                                     <div className="back">
