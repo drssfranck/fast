@@ -12,7 +12,7 @@ var carouselitem = [
         image :require('../media/immigration1.jpg'),
         title : 'Assistance VISA ',
         description : 'Nous simplifions le processus d’obtention de visa à l’étranger. Notre équipe vous guide à chaque étape de la procédure. ',
-        link : '/assistancevisa'
+        link : '/immigration'
     },
     
     {
