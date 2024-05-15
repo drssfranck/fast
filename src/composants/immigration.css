@@ -1,44 +1,47 @@
 
  .titiititi{
   vertical-align: middle;
+  text-transform: uppercase;
+  color: #2c3e90;
+
+ }
+
+ .titi1{
+  font-size: 25px;
  }
   .fast-visa{
     margin-bottom: 10px;
-    background:#ccc;
+    border: 1px solid #2c3e90;
+    padding: 10px;
   }
 
-  .fast-service1{
-    width: 90%;
-  }
+
 
   .fa-service{
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     color: #2c3e90;
     margin-bottom: 10px;
   }
-
+.fast-service1{
+  width: 90%;
+  margin: auto;
+}
   .service-titre h3 {
     margin-top: 50px;
-    font-size:26px; font-weight:700;  letter-spacing:1px; text-transform:uppercase; width:160px; text-align:center; white-space:nowrap; padding-bottom:13px;
+    font-size:30px;
+    font-weight:700; 
+    letter-spacing:10px;
+    text-transform:uppercase; 
+    margin: auto;
+    text-align:center; 
+    white-space:nowrap;
+    padding-bottom:13px;
+    color: #202e6e;
   }
 
-  .service-titre h3:before {
-    background-color: #2c3e90;
-    content: '';
-    display: block;
-    height: 3px;
-    width: 150px;
-    margin-bottom: 5px;
-}
-
-.service-titre h3:after {
-  background-color: #c50000;
-  content: '';
-  display: block;
-  text-align: left;
-  position:absolute; 
-  height: 3px;
-  width: 100px;
-  margin-bottom: 0.25em;
-}
+  @media screen and (max-width: 600px) {
+    .service-titre h3 {
+      font-size: 15px;
+    }
+  }

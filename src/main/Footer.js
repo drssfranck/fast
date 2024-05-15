@@ -1,7 +1,7 @@
 import './footer.css';
 import logo from '../media/logo.png';
 import { Image} from 'react-bootstrap';
-import { FaFacebook, FaGoogle, FaInstagram, FaTwitter, FaWhatsapp } from 'react-icons/fa';
+import { FaFacebook, FaGoogle, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 
 const Footer = () =>{
     return (
@@ -21,19 +21,17 @@ const Footer = () =>{
 
 
                             <div>
-                                <a href="fasttravel.org" className="text-white me-4">
+                                <a target='blank' href="https://www.facebook.com/fastandsuretravel22" className="text-white me-4">
                                 <FaFacebook className='fab' />
                                 </a>
-                                <a href="fasttravel.org" className="text-white me-4">
-                                <FaTwitter className='fab' />
-                                </a>
-                                <a href="fasttravel.org" className="text-white me-4">
+                                
+                                <a target='blank' href="fasttravel.org" className="text-white me-4">
                                     <FaGoogle className='fa' />
                                 </a>
-                                <a href="fasttravel.org" className="text-white me-4">
+                                <a target='blank' href="https://www.instagram.com/fastsuretravel/" className="text-white me-4">
                                 <FaInstagram className='fab' />
                                 </a>
-                                <a href="fasttravel.org" className="text-white me-4">
+                                <a target='blank' href="wa.me/237686989629" className="text-white me-4">
                                     <FaWhatsapp className='fab' />
                                 </a>
                                 
@@ -66,10 +64,10 @@ const Footer = () =>{
                                     <h6 className="text-uppercase fw-bold">Nos services</h6>
                                     <hr className="mb-4 mt-0 d-inline-block mx-auto" style={{width: '60px', backgroundColor: '#7c4dff', height: '2px'}}/>
                                     <p>
-                                    <a href="#!" className="text-white">Assistance Visa</a>
+                                    <a href="/immigration" className="text-white">Assistance Visa</a>
                                     </p>
                                     <p>
-                                    <a href="#!" className="text-white">Vente De Billets D’avion</a>
+                                    <a href="/flyticket" className="text-white">Vente De Billets D’avion</a>
                                     </p>
                                     <p>
                                     <a href="#!" className="text-white">Envoi Des Colis</a>
@@ -119,7 +117,7 @@ const Footer = () =>{
                             className="text-center p-3"
                             style={{backgroundColor: 'rgba(0, 0, 0, 0.2)'}}
                             >
-                        © 2024 Copyright:
+                        © 2024 Copyright &nbsp;
                         <a className="text-white" href="https://delorscompany.com/"
                             >Fast And Sure Travel</a
                             >

@@ -1,4 +1,4 @@
-import {  Routes, Route, HashRouter} from "react-router-dom";
+import {  Routes, Route, BrowserRouter} from "react-router-dom";
 import Header from "./main/Header";
 import Footer from "./main/Footer";
 import Home from "./main/Home";
@@ -13,7 +13,7 @@ import Nosvisa from "./composants/Nosvisa";
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
         <Header />
         <Routes>
           <Route index element={<Home/>} />
@@ -28,7 +28,7 @@ function App() {
         </Routes>
         <Whatsapp/>
         <Footer/>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
