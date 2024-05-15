@@ -187,7 +187,7 @@ ul {
     overflow: hidden;
     backface-visibility: hidden;
     border-radius: 8px;
-    background: #000;
+    background: lime;
 }
 .back{
     width: 97%;
