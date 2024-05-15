@@ -52,7 +52,7 @@ const CarouselFast = () =>{
                                         <p className='mh-50'>
                                             {mbe.description}
                                         </p>
-                                        <button className='btn btn-2 btn-2a' href={mbe.link}>Plus de details</button>
+                                        <a className='btn btn-2 btn-2a' href={mbe.link}>Plus de details</a>
 
                                     </Carousel.Caption>
                                  </Carousel.Item>

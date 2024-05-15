@@ -52,10 +52,10 @@ function Questions() {
                     <div className='col-md-6 col-lg-4 mb-4'>
                     <h6 className='mb-3 text-primary'><FaHome className='text-primary pe-2  text-center' />Proposez-vous une assistance en cas de refus de visa ? 
                     </h6>
-                        Oui, nous offrons une assistance en cas <p><strong><u>de refus de visa.</u></strong>  Si votre demande de visa est refusée,
+                        Oui, nous offrons une assistance en cas <strong><u>de refus de visa.</u></strong>  Si votre demande de visa est refusée,
                          nous vous aidons à comprendre les raisons du refus et à évaluer les options disponibles,
                          telles que la possibilité de faire appel à la décision ou de soumettre une nouvelle demande avec des informations supplémentaires. 
-                        </p>
+                        
                     </div>
 
                     <div className='col-md-6 col-lg-4 mb-4'>
