@@ -7,8 +7,8 @@ var carouselitem = [
     {
         id:0,
         image :require('../media/avom.jpg'),
-        nom : 'VISA TOURISME, CANADA ',
-        location :'Residence permanente, Canada',
+        nom : 'AVOM OLOMO FRANCOIS',
+        location :'VISA TOURISME, CANADA ',
         message : 'Je tiens à exprimer ma gratitude envers FAST AND SURE TRAVEL.SARL pour leur excellent service dans l’obtention de mon visa tourisme pour le CANADA. Leur équipe professionnelle m’a fourni des conseils précieux et a traité ma demande avec efficacité. Je les recommande sans hésitation à tous ceux qui cherchent une assistance visa fiable et de qualité.',
         
     },
@@ -17,7 +17,7 @@ var carouselitem = [
         image :require('../media/fiayo.jpg'),
         nom : 'FIAYO MAMA BELLEVIE ',
         location :'VISA ETUDE, CANADA ',
-        message : 'Le suivi, les conseils et l’efficacité de<b> FAST AND SURE TRAVEL.SARL</b> sont irréprochables. Grace à eux j’ai pu faire le meilleur choix de procédure et je suis désormais étudiante au CANADA. ',
+        message : 'Le suivi, les conseils et l’efficacité de FAST AND SURE TRAVEL.SARL  sont irréprochables. Grace à eux j’ai pu faire le meilleur choix de procédure et je suis désormais étudiante au CANADA. ',
         
     }  
 ]
@@ -29,7 +29,7 @@ function Temoignage(){
             <div className='section-title'>
                 <h2 className='fast-titre'> Témoignages</h2> 
             </div>
-            <p className='d-flex  justify-content-center text-title'>
+            <p className='d-flex h4 justify-content-center text-title'>
                 Ce que disent nos clients satisfaits : découvrez leurs témoignages inspirants sur notre service d'assistance visa. Rejoignez notre communauté de voyageurs confiants et découvrez comment Fast And Sure Travel peut transformer votre expérience de demande de visa.
             </p> 
             <Carousel  id="testimonial4" className='carousel-temoignage ' data-pause='hover' >

@@ -4,8 +4,7 @@
   height: 500px;
 }
 
-.container-temoignage{
-}
+
 
 .carousel-temoignage{
   max-height: 400px;
@@ -42,6 +41,7 @@ width: 70%;
   line-height: 1cm;
   padding: 5px;
   font-style: italic;
+  font-size: larger;
 }
 .caption-responsive h4{
   color: #fff;

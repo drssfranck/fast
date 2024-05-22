@@ -1,0 +1,17 @@
+.opendossier{
+}
+
+
+.btn-right{
+    background-color: blue;
+    float: right;
+}
+
+.btn-left{
+    background-color: rgb(44, 44, 114);
+}
+
+.errorMessage{
+    font-size: 12px;
+    color: red;
+}

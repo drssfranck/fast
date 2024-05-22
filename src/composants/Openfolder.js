@@ -35,10 +35,11 @@ const [show, setShow] = useState(false);
     console.log('Bonjour')
   };
 
+ const titlee = ['Information Personnel','Niveau d\'étude et profession', 'Procédure choisie','Adresses','Validation' ]
 
 
-
-  const [step, setStep] = useState(1);
+  const [step, setStep] = useState(0);
+  //const [titleStep, settitleStep] = useState(null);
   const [formData, setFormData] = useState({});
   const handleNext = () => {
     setStep(step + 1);
@@ -51,22 +52,22 @@ const [show, setShow] = useState(false);
     setFormData({ ...formData, [name]: value });
   };
   var message = `<b>Nom complet :</b>`+formData.user_name +
-  ` <br/> <b>Date et Lieux de naissance :</b>`+ FormData.dnais +" à "+formData.lnais + 
+  ` <br/> <b>Date et Lieux de naissance :</b>`+ formData.dnais +" à "+formData.lnais + 
   "<br /> <b>Profession :</b>"+formData.profession
   +"<br/><b>Niveau d'étude :</b>"+formData.letude+
   "<br/><b>Type de procédure et Destination :</b>"+formData.motif +"  "+formData.destination
-  +"<br /><b>Email : </b>"+FormData.email
+  +"<br /><b>Email : </b>"+formData.email
   +"<br/><b> Téléphone : </b>"+formData.telephone 
   + "<br /><b> Votre ville d'origine est </b>" +formData.ville 
   + "<br/> <b>Vous avez connu FAST via </b>" +formData.kfast;
     return (
       <>
-              <h1>Remplissez notre formulaire d'ouverture de dossier et laissez nos experts vous accompagner</h1>
+              <h3 className='text-center'>Remplissez notre formulaire d'ouverture de dossier et laissez nos experts vous accompagner</h3>
     <div className='formulaire'>
         <Form ref={form}  className='ouvrir-dossier' method="post">
-          <h2>Informations</h2>
-            <ProgressBar now={(step / 5) * 100} />
-            {step === 1 && (<>
+          <h2 className='text-center'>{titlee[step]}</h2>
+            <ProgressBar now={((step+1) / 5) * 100} />
+            {step === 0 && (<>
               <Form.Group controlId="formStep1">
                 <FloatingLabel controlId="floatingInput" label='Nom et prenom' id="inputGroupPrepend" >
                   <input
@@ -104,7 +105,7 @@ const [show, setShow] = useState(false);
               </Form.Group>
             </>
             )}
-            {step === 2 && (
+            {step === 1 && (
               <>
               <Form.Group controlId="formStep2">
                 <FloatingLabel label='Profession'>
@@ -128,24 +129,23 @@ const [show, setShow] = useState(false);
               </Form.Group>
               </>
             )}
-            {step === 3 && (
+            {step === 2 && (
               <>
               <Form.Group controlId="formStep2">
                 <FloatingLabel label='Pays choisi'>
-                <Form.Select defaultValue='Autre' name='destination'  value={formData.destination} onChange={handleInputChange}>
+                <Form.Select  name='destination'  value={formData.destination} onChange={handleInputChange}>
                   <option  value="Canada">Canada</option>
                   <option value="France">France</option>
                   <option value="Roumanie">Roumanie</option>
                   <option value="Russie">Russie</option>
                   <option value="Australie">Australie</option>
                   <option value="Autre">Autre</option>
-
                 </Form.Select>
                 </FloatingLabel>
               </Form.Group>
               <Form.Group controlId="formStep2">
                 <FloatingLabel label='Motif du voyage'>
-                <Form.Select name='motif' defaultValue='Etude' value={formData.motif} onChange={handleInputChange}>
+                <Form.Select name='motif' value={formData.motif} onChange={handleInputChange}>
                   <option value="Etude" >Etude</option>
                   <option value="Tourisme">Tourisme</option>
                   <option value="Travail">Travail</option>
@@ -154,13 +154,13 @@ const [show, setShow] = useState(false);
                 </FloatingLabel>
               </Form.Group>
               </>
-            )}{step === 4 && (
+            )}{step === 3 && (
               <>
                 <Form.Group controlId="formStep2">
                 <FloatingLabel label='Email'>
                   <Form.Control
                     name='email'
-                    type="email"
+                    type="text"
                     value={formData.email}
                     onChange={handleInputChange}
                   />
@@ -200,7 +200,7 @@ const [show, setShow] = useState(false);
               </>
             )
             }{
-              step === 5 &&(
+              step === 4 &&(
                 <>
                 <h2 className='text-center'>Veuillez vérifiez les information avant de soumettre</h2>
                   <span dangerouslySetInnerHTML={{__html: message}}>
@@ -210,12 +210,12 @@ const [show, setShow] = useState(false);
               )
             }
             <div className="d-flex justify-content-between">
-              {step > 1 && (
+              {step > 0 && (
                 <Button variant="secondary" onClick={handlePrevious}>
                   Précedent
                 </Button>
               )}
-              {step < 5? (
+              {step < 4? (
                 <Button variant="primary" onClick={handleNext}>
                   Suivant
                 </Button>
@@ -239,7 +239,7 @@ const [show, setShow] = useState(false);
           <Modal.Title><h3 className='text-center'>Demande d'ouverture de dossier</h3></Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <p className='lead text-center'>Mr/Mme <b>{formData.user_name}</b>  Nous avons bien récu votre demannde, vous serez contacté dans les 48H suivant pour la suite de procédure.</p>
+          <p className='lead text-center'>Mr/Mme <b>{formData.user_name}</b>  Nous avons bien récu votre demande, vous serez contacté dans les 48H suivant pour la suite de procédure.</p>
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>

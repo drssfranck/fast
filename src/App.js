@@ -10,6 +10,7 @@ import Contact from "./composants/Contact";
 import Immigration from "./composants/Immigration";
 import Fly from "./composants/Fly";
 import Nosvisa from "./composants/Nosvisa";
+import Open from './composants/openfolder/Open'
 
 function App() {
   return (
@@ -20,11 +21,12 @@ function App() {
           <Route path="/fast" element={<Home/>}/>
           <Route path="/home" element={<Home/>}/>
           <Route path="/about" element={<About/>}/>
-          <Route path="/openFolder" element={<Openfolder/>}/>
+          <Route path="/lancer" element={<Openfolder/>}/>
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/immigration" element={<Immigration/>}/>
           <Route path="/flyticket" element={<Fly/>}/>
           <Route path="/nosvisa" element={<Nosvisa/>}/>
+          <Route path="/openFolder" element={<Open/>}/>
         </Routes>
         <Whatsapp/>
         <Footer/>
