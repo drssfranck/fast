@@ -5,13 +5,12 @@ import Home from "./main/Home";
 import About from "./composants/About";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Whatsapp from "./composants/Whatsapp";
-import Openfolder from "./composants/Openfolder";
 import Contact from "./composants/Contact";
 import Immigration from "./composants/Immigration";
-import Fly from "./composants/Fly";
 import Nosvisa from "./composants/Nosvisa";
 import Open from './composants/openfolder/Open'
-
+import Avion from "./composants/flyticket/Avion";
+import './app.css'
 function App() {
   return (
     <BrowserRouter>
@@ -21,10 +20,9 @@ function App() {
           <Route path="/fast" element={<Home/>}/>
           <Route path="/home" element={<Home/>}/>
           <Route path="/about" element={<About/>}/>
-          <Route path="/lancer" element={<Openfolder/>}/>
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/immigration" element={<Immigration/>}/>
-          <Route path="/flyticket" element={<Fly/>}/>
+          <Route path="/flyticket" element={<Avion/>}/>
           <Route path="/nosvisa" element={<Nosvisa/>}/>
           <Route path="/openFolder" element={<Open/>}/>
         </Routes>
