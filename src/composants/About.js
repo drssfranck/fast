@@ -14,19 +14,10 @@ var team = [{
     twitter :'',
     linkedin:'',
     imagea :require('../media/alex.jpg')
-},{
-    id:'1',
-    nom:'NGUIMKENG G. FRED',
-    poste :'Directeur Marketing et Commerçial',
-    facebook:'',
-    twitter :'',
-    linkedin:'',
-    imagea :require('../media/fred.jpg')
-
 }
 
 ,{
-    id:'3',
+    id:'1',
     nom:'Mlle BABOGA MARINA',
     poste :'Chargée clientéle',
     facebook:'',
@@ -36,7 +27,7 @@ var team = [{
 
 }
 ,{
-    id:'4',
+    id:'2',
     nom:'Mlle UMM MICHELE  ',
     poste :'ASSISTANTE MARKETING ET COMMERCIALE',
     facebook:'',
@@ -46,17 +37,7 @@ var team = [{
 
 }
 ,{
-    id:'5',
-    nom:'M. YONKEU ERIC',
-    poste :'DIRECTEUR TECHNIQUE',
-    facebook:'',
-    twitter :'',
-    linkedin:'',
-    imagea :require('../media/Yonkeu.JPG')
-
-}
-,{
-    id:'6',
+    id:'3',
     nom:'M. OBAME HUGUE',
     poste :'ASSISTANT DU DIRECTEUR TECHNIQUE',
     facebook:'',
@@ -66,7 +47,7 @@ var team = [{
 
 }
 ,{
-    id:'7',
+    id:'4',
     nom:'M. ESSONO AMBROISE',
     poste :'ASSISTANT DU DIRECTEUR TECHNIQUE',
     facebook:'',
