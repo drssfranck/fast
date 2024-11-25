@@ -105,7 +105,7 @@ const Footer = () =>{
                                     <b>Samedi et jours fériés</b>
                                     </p>
                                     <p>
-                                    09h00 - 15h00
+                                    08h00 - 13h00
                                     </p>
                                 
                                 </div>

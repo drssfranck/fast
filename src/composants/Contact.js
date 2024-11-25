@@ -112,7 +112,7 @@ class Contact extends React.Component{
                                 <   FaMarker className='fa-contact'/>
                                 </div>
                                 <div className="text">
-                                    <p><span><b>Yaoundé</b>:</span>Scalom (à côté du collège anglo-saxon EHS) </p>
+                                    <p><span><b>Yaoundé</b>:</span> Damas (Face Maison Damas) </p>
                                     <p><span><b>Douala</b>:</span>Carrefour Agip (Face Afrique construction) </p>
                                 </div>
                             </div>

@@ -5,7 +5,6 @@ import Image from 'react-bootstrap/Image';
 import image1 from '../media/slide1.jpg';
 import image2 from '../media/slide2.jpg';
 import image3 from '../media/slide4.jpg';
-import image4 from '../media/fred.jpg';
 
 const Aboutus = () =>{
     return (
@@ -26,9 +25,7 @@ const Aboutus = () =>{
                     <div className='imgWrapper'>
                         <Image src={image3} />
                     </div>
-                    <div className='imgWrapper'>
-                        <Image src={image4} />
-                    </div>
+                   
                 </div>
             </div>
             
