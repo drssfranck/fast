@@ -16,7 +16,7 @@ const Footer = () =>{
 
 
                             <div className="me-5">
-                                <span>Réseaux sociaux</span>
+                                <span>Réseau social</span>
                             </div>
 
 
