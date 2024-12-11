@@ -37,7 +37,7 @@ const Aboutus = () =>{
                         </span>
                     </div>
                         <p className='d-flex justify-content-between'>
-                        <b>FAST AND SURE TRAVEL.SARL</b> est une entreprise spécialisée dans l’assistance Visa, la billetterie et le transport des marchandises. Elle a été créée en octobre 2021, dans le but principal de faciliter les demandes liées aux voyages internationaux. 
+                        <b>FAST AND SURE TRAVEL.SARL</b> est une entreprise spécialisée dans l’assistance Visa, formation en langue, formation en conduite, la vente des billets d'avions et le transport des marchandises . Créée en octobre 2021, son but principal de faciliter les demandes liées aux voyages internationaux. 
                         </p>
                         <a href='/about'>Lire plus</a>
                     </div>
