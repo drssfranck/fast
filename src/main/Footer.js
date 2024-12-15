@@ -75,6 +75,9 @@ const Footer = () =>{
                                     <p>
                                     <a href="#!" className="text-white">Faire Les Achats En Chine</a>
                                     </p>
+                                    <p>
+                                    <a href="#!" className="text-white">FAST DRIVE</a>
+                                    </p>
                                 </div>
 
 
